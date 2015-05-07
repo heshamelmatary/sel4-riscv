@@ -1,1 +1,14 @@
-/home/hesham/MSc-York/seL4/seL4test/projects/sel4test/Kbuild
+#
+# Copyright 2014, NICTA
+#
+# This software may be distributed and modified according to the terms of
+# the BSD 2-Clause license. Note that NO WARRANTY is provided.
+# See "LICENSE_BSD2.txt" for details.
+#
+# @TAG(NICTA_BSD)
+#
+libc=libmuslc
+
+-include $(wildcard apps/*/Kbuild)
+-include $(wildcard libs/*/Kbuild)
+
