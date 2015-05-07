@@ -1,0 +1,7 @@
+[core]
+	repositoryformatversion = 0
+	filemode = true
+[remote "seL4"]
+	url = https://github.com/seL4/libutils.git
+	projectname = libutils.git
+	fetch = +refs/heads/*:refs/remotes/seL4/*

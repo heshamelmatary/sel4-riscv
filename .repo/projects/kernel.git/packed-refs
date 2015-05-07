@@ -1,0 +1,11 @@
+# pack-refs with: peeled fully-peeled 
+f134f87c901b8408e969cbf40f5f09121c2852e9 refs/remotes/seL4/experimental
+4f12acd2703183c9f44fe097589b53eb53c599eb refs/remotes/seL4/master
+93aa7e3264041c8aeaf53af2d523ac59a3a37ef1 refs/tags/API-experimental-01-03--release-2014-07-29
+^50e219ecb96933369345f0594c3336a37d39521c
+764a3c8dfbb5f2a09afe18e3bfb449799a55f4a9 refs/tags/API-experimental-01-03--release-2014-08-10
+^2213b9fe0facf3e3ceabe4adda581bed515be163
+2315f4ce797b8bd0a8fd9efc5ed92d02d4a4baa6 refs/tags/API-master-01-03--release-2014-07-29
+^9711f8134f1e4b48010b1168f4b1acd94f4c2ee4
+4961cb66a484b4d3a436ac72a6fc286b23912e52 refs/tags/API-master-01-03--release-2014-08-10
+^e88fe4e356d3f1858dd142bf2da8ae393824a0c1

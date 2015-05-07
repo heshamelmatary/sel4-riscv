@@ -1,0 +1,34 @@
+4f12acd2703183c9f44fe097589b53eb53c599eb de935520cf68bc0da7360d5e9c97f0f405e5afa1 Hesham ALMatary <heshamelmatary@gmail.com> 1426781284 +0000	checkout: moving from 4f12acd2703183c9f44fe097589b53eb53c599eb to de935520cf68bc0da7360d5e9c97f0f405e5afa1
+de935520cf68bc0da7360d5e9c97f0f405e5afa1 64458a2cfd6f77d037a9f67b47f0b9858b94e2b6 Hesham ALMatary <heshamelmatary@gmail.com> 1427102878 +0000	commit: Add riscv to the building system
+64458a2cfd6f77d037a9f67b47f0b9858b94e2b6 7ffe2c55584b63142927f2485178e371bdc09464 Hesham ALMatary <heshamelmatary@gmail.com> 1427102882 +0000	checkout: moving from 64458a2cfd6f77d037a9f67b47f0b9858b94e2b6 to experimental
+7ffe2c55584b63142927f2485178e371bdc09464 7ffe2c55584b63142927f2485178e371bdc09464 Hesham ALMatary <heshamelmatary@gmail.com> 1427103039 +0000	checkout: moving from experimental to master
+7ffe2c55584b63142927f2485178e371bdc09464 ff5504ef1f015255ab5ed65165e11f692441de1c Hesham ALMatary <heshamelmatary@gmail.com> 1427103085 +0000	checkout: moving from master to seL4/experimental
+ff5504ef1f015255ab5ed65165e11f692441de1c ff5504ef1f015255ab5ed65165e11f692441de1c Hesham ALMatary <heshamelmatary@gmail.com> 1427278764 +0000	checkout: moving from ff5504ef1f015255ab5ed65165e11f692441de1c to riscv
+ff5504ef1f015255ab5ed65165e11f692441de1c cabbc2cdcbfae9dfe607033c8ad1f4d9fd7a66c2 Hesham ALMatary <heshamelmatary@gmail.com> 1427282000 +0000	commit: Add stubs and basic infrastrcutre and headers for riscv port
+cabbc2cdcbfae9dfe607033c8ad1f4d9fd7a66c2 2b497b1dcb5f1ba33bc86db202ac6824ff6b5809 Hesham ALMatary <heshamelmatary@gmail.com> 1428312505 +0100	commit: Dummy copied files to make compilation process happy
+2b497b1dcb5f1ba33bc86db202ac6824ff6b5809 9faea7b8ff7438830b81a897854d6e5413fe4d9c Hesham ALMatary <heshamelmatary@gmail.com> 1428316992 +0100	commit: Add dummy QEMU_RISCV platform
+9faea7b8ff7438830b81a897854d6e5413fe4d9c 975dadbb69e0f8fb31c6702efcb7661b1033dafb Hesham ALMatary <heshamelmatary@gmail.com> 1428317039 +0100	commit: Imitate ARM kernel structures (temp)
+975dadbb69e0f8fb31c6702efcb7661b1033dafb b56c6f5be343d2289c01fe37349daa7deafeda45 Hesham ALMatary <heshamelmatary@gmail.com> 1428317099 +0100	commit: Delete old qemu-riscv files
+b56c6f5be343d2289c01fe37349daa7deafeda45 28a1a5c0d2c922c7a302c58f2540bd4dfb5cac09 Hesham ALMatary <heshamelmatary@gmail.com> 1428319759 +0100	commit: Modify some errors due to ARM files copying
+28a1a5c0d2c922c7a302c58f2540bd4dfb5cac09 c84e0c9bffa01e73bc7bb43a103d8851c3ff5728 Hesham ALMatary <heshamelmatary@gmail.com> 1428322778 +0100	commit: Add PAGE_BITS def and fix copying errors
+c84e0c9bffa01e73bc7bb43a103d8851c3ff5728 5054c12f87c931fc29dbb079df49f40841981e20 Hesham ALMatary <heshamelmatary@gmail.com> 1428324468 +0100	commit: Add registers definitions
+5054c12f87c931fc29dbb079df49f40841981e20 b7691b9402a0b2275ff7dabd5f6d7c66494f7207 Hesham ALMatary <heshamelmatary@gmail.com> 1428324560 +0100	commit: Add IRQ stubs for qemu_riscv platform
+b7691b9402a0b2275ff7dabd5f6d7c66494f7207 f29bac4805015340ec05e9efa47044ee9a80764e Hesham ALMatary <heshamelmatary@gmail.com> 1428324949 +0100	commit: stubs: QEMU Plat UART/Debug driver
+f29bac4805015340ec05e9efa47044ee9a80764e 9eb73c194d3d9c950d8b0100321ab7d8ab3cfb6b Hesham ALMatary <heshamelmatary@gmail.com> 1428326404 +0100	commit: stubs: QEMU plat. Add debug stubs
+9eb73c194d3d9c950d8b0100321ab7d8ab3cfb6b 5f8f2501e1dc27de43a8629329ab30a0bbb6484f Hesham ALMatary <heshamelmatary@gmail.com> 1428328475 +0100	commit: stubs: kernel related stuff
+5f8f2501e1dc27de43a8629329ab30a0bbb6484f d52ad834d1262d89800a008bef7899e1083d82ab Hesham ALMatary <heshamelmatary@gmail.com> 1428329585 +0100	commit: stubs: machine/hardware.c
+d52ad834d1262d89800a008bef7899e1083d82ab 2c8be35e2f25f5494fed4539f20426259072aed4 Hesham ALMatary <heshamelmatary@gmail.com> 1428331073 +0100	commit: Almost there to get stubbed version of kernel.elf
+2c8be35e2f25f5494fed4539f20426259072aed4 beba7971459375311b95713de2fd46c5d402bcc5 Hesham ALMatary <heshamelmatary@gmail.com> 1428332139 +0100	commit: stubs: DONE. Building result in stubbed version of kernel.elf image now
+beba7971459375311b95713de2fd46c5d402bcc5 caa733496740967a362f979995cb82586181a7db Hesham ALMatary <heshamelmatary@gmail.com> 1428358627 +0100	commit: Fix up loading address so that QEMU can load the kernel image (temp)
+caa733496740967a362f979995cb82586181a7db 119c115a22013b8294e8c343f04a6773ea6dca95 Hesham ALMatary <heshamelmatary@gmail.com> 1428410513 +0100	commit: plat/qemu_riscv: Implement serial UART driver (for debugging)
+119c115a22013b8294e8c343f04a6773ea6dca95 dc222feb3cf0150fb4600af0f078dc9b4c28c410 Hesham ALMatary <heshamelmatary@gmail.com> 1428506301 +0100	commit: MMU init/trials stuff
+dc222feb3cf0150fb4600af0f078dc9b4c28c410 a0d1e248ece4532137e80c9ed6699aec9ee3c4c3 Hesham ALMatary <heshamelmatary@gmail.com> 1428507802 +0100	commit: Set status register to 32-bit mode
+a0d1e248ece4532137e80c9ed6699aec9ee3c4c3 1b5ded4b3d39ae38b52c8ce6f353fb97ab961a29 Hesham ALMatary <heshamelmatary@gmail.com> 1430758110 +0100	commit: Add traps, brute-force system call, and comply with new ISA spec. printsr and the current code is working on Spike
+1b5ded4b3d39ae38b52c8ce6f353fb97ab961a29 905b96acc1a29d9293ebbbae65876b3c44c7a55e Hesham ALMatary <heshamelmatary@gmail.com> 1430758176 +0100	commit: Old uncommited files
+905b96acc1a29d9293ebbbae65876b3c44c7a55e ff5504ef1f015255ab5ed65165e11f692441de1c Hesham ALMatary <heshamelmatary@gmail.com> 1430758196 +0100	checkout: moving from riscv to experimental
+ff5504ef1f015255ab5ed65165e11f692441de1c b49e1b553b4acd65b91553cee0ed2e4ea5d6a066 Hesham ALMatary <heshamelmatary@gmail.com> 1430758205 +0100	pull seL4 experimental: Fast-forward
+b49e1b553b4acd65b91553cee0ed2e4ea5d6a066 d303cf2e63b0036f95b2e288e490b0735a797e62 Hesham ALMatary <heshamelmatary@gmail.com> 1430758225 +0100	merge riscvhesham/riscv: Merge made by the 'recursive' strategy.
+d303cf2e63b0036f95b2e288e490b0735a797e62 905b96acc1a29d9293ebbbae65876b3c44c7a55e Hesham ALMatary <heshamelmatary@gmail.com> 1430758262 +0100	checkout: moving from experimental to riscvhesham/riscv
+905b96acc1a29d9293ebbbae65876b3c44c7a55e e4578acc9c08010aeda78d03fd03184f3597a744 Hesham ALMatary <heshamelmatary@gmail.com> 1430758279 +0100	merge seL4/experimental: Merge made by the 'recursive' strategy.
+e4578acc9c08010aeda78d03fd03184f3597a744 905b96acc1a29d9293ebbbae65876b3c44c7a55e Hesham ALMatary <heshamelmatary@gmail.com> 1430760491 +0100	checkout: moving from e4578acc9c08010aeda78d03fd03184f3597a744 to riscv
+905b96acc1a29d9293ebbbae65876b3c44c7a55e 905b96acc1a29d9293ebbbae65876b3c44c7a55e Hesham ALMatary <heshamelmatary@gmail.com> 1430760501 +0100	checkout: moving from riscv to riscv

@@ -1,0 +1,2 @@
+0000000000000000000000000000000000000000 81811a27dc5f8f738438327cf50982180fe6291b Hesham <hesham@localhost.localdomain> 1426178704 +0000	fetch seL4 --tags +refs/heads/*:refs/remotes/seL4/* +refs/heads/master:refs/remotes/seL4/master: storing head
+81811a27dc5f8f738438327cf50982180fe6291b 44fe8cbc4a5ccc1e023ef8cf15c8c36c4f664b0c Hesham <hesham@localhost.localdomain> 1426781255 +0000	fetch seL4 --tags +refs/heads/*:refs/remotes/seL4/* +refs/heads/master:refs/remotes/seL4/master: fast-forward

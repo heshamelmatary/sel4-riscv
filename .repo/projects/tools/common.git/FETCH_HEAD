@@ -1,0 +1,4 @@
+efc5c52d4c86eb9803fc92f597597e38c2d1dcd9		branch 'camkes' of https://github.com/seL4/common-tool
+392da986ac01e6a3c31e6057aef959bad10cefd4		branch 'master' of https://github.com/seL4/common-tool
+be1b875fd64193ac1c70c40f0e032dc518e412fd	not-for-merge	tag 'v1.0.0' of https://github.com/seL4/common-tool
+cb1e2ed77059009dc4a5056bbe6f692fd4e48fc9	not-for-merge	tag 'v1.0.1' of https://github.com/seL4/common-tool

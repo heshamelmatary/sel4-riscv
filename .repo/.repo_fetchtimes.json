@@ -1,0 +1,22 @@
+{
+  "kbuild-tool.git": 0.724723219871521, 
+  "libsel4utils.git": 0.7878572344779968, 
+  "libsel4test.git": 0.6507077217102051, 
+  "libcpio.git": 0.6505740880966187, 
+  "libplatsupport.git": 0.8251663446426392, 
+  "libsel4simple.git": 0.6797610521316528, 
+  "seL4.git": 1.067140519618988, 
+  "common-tool.git": 0.7695317268371582, 
+  "libsel4simple-default.git": 0.650816798210144, 
+  "sel4test.git": 3.260867714881897, 
+  "libsel4allocman.git": 1.9571809768676758, 
+  "musllibc.git": 3.073678731918335, 
+  "libsel4platsupport.git": 0.9503587484359741, 
+  "elfloader-tool.git": 0.7189797759056091, 
+  "libelf.git": 0.7109408378601074, 
+  "libutils.git": 0.7900121808052063, 
+  "libsel4simple-stable.git": 0.7199208736419678, 
+  "libsel4muslcsys.git": 0.7642970681190491, 
+  "libsel4vspace.git": 0.8036493062973022, 
+  "libsel4vka.git": 0.917019784450531
+}

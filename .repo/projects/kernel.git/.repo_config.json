@@ -1,0 +1,17 @@
+{
+  "core.repositoryformatversion": [
+    "0"
+  ], 
+  "remote.seL4.url": [
+    "https://github.com/seL4/seL4.git"
+  ], 
+  "core.filemode": [
+    "true"
+  ], 
+  "remote.seL4.projectname": [
+    "seL4.git"
+  ], 
+  "remote.seL4.fetch": [
+    "+refs/heads/*:refs/remotes/seL4/*"
+  ]
+}

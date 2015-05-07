@@ -1,0 +1,6 @@
+7ffe2c55584b63142927f2485178e371bdc09464		branch 'experimental' of https://github.com/seL4/seL4
+de935520cf68bc0da7360d5e9c97f0f405e5afa1		branch 'master' of https://github.com/seL4/seL4
+93aa7e3264041c8aeaf53af2d523ac59a3a37ef1	not-for-merge	tag 'API-experimental-01-03--release-2014-07-29' of https://github.com/seL4/seL4
+764a3c8dfbb5f2a09afe18e3bfb449799a55f4a9	not-for-merge	tag 'API-experimental-01-03--release-2014-08-10' of https://github.com/seL4/seL4
+2315f4ce797b8bd0a8fd9efc5ed92d02d4a4baa6	not-for-merge	tag 'API-master-01-03--release-2014-07-29' of https://github.com/seL4/seL4
+4961cb66a484b4d3a436ac72a6fc286b23912e52	not-for-merge	tag 'API-master-01-03--release-2014-08-10' of https://github.com/seL4/seL4

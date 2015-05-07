@@ -1,0 +1,1 @@
+0000000000000000000000000000000000000000 fb50b5f4e0eedf1da877989a7a22b38ee3e77f4d Hesham <hesham@localhost.localdomain> 1426178707 +0000	fetch seL4 --tags +refs/heads/*:refs/remotes/seL4/* +refs/heads/master:refs/remotes/seL4/master: storing head

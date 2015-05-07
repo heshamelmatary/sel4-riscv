@@ -1,0 +1,13 @@
+[core]
+	repositoryformatversion = 0
+	filemode = true
+[remote "seL4"]
+	url = https://github.com/seL4/seL4.git
+	projectname = seL4.git
+	fetch = +refs/heads/*:refs/remotes/seL4/*
+[branch "experimental"]
+	remote = seL4
+	merge = refs/heads/experimental
+[remote "riscvhesham"]
+	url = git@github.com:heshamelmatary/seL4.git
+	fetch = +refs/heads/*:refs/remotes/riscvhesham/*

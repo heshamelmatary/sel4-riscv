@@ -1,0 +1,7 @@
+# pack-refs with: peeled fully-peeled 
+efc5c52d4c86eb9803fc92f597597e38c2d1dcd9 refs/remotes/seL4/camkes
+392da986ac01e6a3c31e6057aef959bad10cefd4 refs/remotes/seL4/master
+be1b875fd64193ac1c70c40f0e032dc518e412fd refs/tags/v1.0.0
+^770b9f9544a88f5a567c4f8ae80f364dbe4aa0b5
+cb1e2ed77059009dc4a5056bbe6f692fd4e48fc9 refs/tags/v1.0.1
+^7c8c863430e5ab73d6095fdbc3ed62ee190e36e8
