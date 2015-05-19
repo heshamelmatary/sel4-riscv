@@ -27,15 +27,15 @@ endmenu
 
 #endmenu
 
-#menu "seL4 Libraries"
-    #source "libs/libsel4/Kconfig"
-    #source "libs/libmuslc/Kconfig"
+menu "seL4 Libraries"
+    source "libs/libsel4/Kconfig"
+    source "libs/libmuslc/Kconfig"
     #source "libs/libsel4muslcsys/Kconfig"
     #source "libs/libsel4vka/Kconfig"
     #source "libs/libsel4vspace/Kconfig"
     #source "libs/libsel4allocman/Kconfig"
-    #source "libs/libcpio/Kconfig"
-    #source "libs/libelf/Kconfig"
+    source "libs/libcpio/Kconfig"
+    source "libs/libelf/Kconfig"
     #source "libs/libsel4utils/Kconfig"
     #source "libs/libsel4platsupport/Kconfig"
     #source "libs/libsel4test/Kconfig"
@@ -44,10 +44,14 @@ endmenu
     #source "libs/libsel4simple-stable/Kconfig"
     #source "libs/libutils/Kconfig"
     #source "libs/libplatsupport/Kconfig"
-#endmenu
+endmenu
 
-#menu "Tools"
-    #source "tools/elfloader/Kconfig"
-#endmenu
+menu "seL4 Applications"
+    source "apps/test/Kconfig"
+endmenu
+
+menu "Tools"
+    source "tools/elfloader/Kconfig"
+endmenu
 
 source "$COMMON_PATH/Kconfig"
