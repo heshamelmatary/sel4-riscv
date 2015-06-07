@@ -1,0 +1,14 @@
+apps-$(CONFIG_APP_SOS) += sos 
+#test-y = common libsel4 libmuslc libsel4muslcsys
+#sos-y = common libsel4 libmuslc libsel4vka libcpio libelf \
+#                                       libsel4platsupport libsel4platsupport libsel4muslcsys \
+#                                       libsel4vspace libsel4utils libutils libsel4cspace 
+
+sos-components-$(CONFIG_APP_TTY_TEST) += tty_test
+sos-components=$(addprefix $(STAGE_BASE)/bin/, $(sos-components-y))
+
+sos: export COMPONENTS=${sos-components}
+sos: ${sos-components-y} \
+     libsel4 libelf $(libc) libcpio \
+     libsel4cspace libsel4platsupport libsel4muslcsys \
+     libplatsupport
