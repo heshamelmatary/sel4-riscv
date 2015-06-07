@@ -20,19 +20,13 @@ menu "seL4 Kernel"
 source "kernel/Kconfig"
 endmenu
 
-#menu "seL4 Applications"
-   #source "apps/sel4test-driver/Kconfig"
-   #source "apps/sel4test-tests/Kconfig"
-   #source "apps/sel4test-riscv/Kconfig"
-
-#endmenu
-
 menu "seL4 Libraries"
     source "libs/libsel4/Kconfig"
     source "libs/libmuslc/Kconfig"
     source "libs/libsel4muslcsys/Kconfig"
     source "libs/libsel4vka/Kconfig"
     source "libs/libsel4vspace/Kconfig"
+    source "libs/libsel4cspace/Kconfig"
     #source "libs/libsel4allocman/Kconfig"
     source "libs/libcpio/Kconfig"
     source "libs/libelf/Kconfig"
@@ -46,7 +40,8 @@ menu "seL4 Libraries"
 endmenu
 
 menu "seL4 Applications"
-    source "apps/test/Kconfig"
+    source "apps/sos/Kconfig"
+    source "apps/tty_test/Kconfig"
 endmenu
 
 menu "Tools"
