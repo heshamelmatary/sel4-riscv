@@ -116,7 +116,7 @@ void syscall_loop(seL4_CPtr ep) {
         seL4_Word badge;
         seL4_Word label;
         seL4_MessageInfo_t message;
-        
+        printf("\n-->");
         message = seL4_Wait(ep, &badge);
         label = seL4_MessageInfo_get_label(message);
         if(badge & IRQ_EP_BADGE){
@@ -267,7 +267,7 @@ void start_first_process(char* app_name, seL4_CPtr fault_ep) {
 
 
     /* parse the cpio image */
-    dprintf(1, "\nStarting \"%s\"...\n", app_name);
+    dprintf(1, "Starting \"%s\"...\n", app_name);
     elf_base = cpio_get_file(_cpio_archive, app_name, &elf_size);
     conditional_panic(!elf_base, "Unable to locate cpio header");
 
@@ -299,7 +299,7 @@ void start_first_process(char* app_name, seL4_CPtr fault_ep) {
 
 
     /* Start the new process */
-    dprintf(1, " Start the new process \n");
+    dprintf(1, "Start the new process \n");
 
     memset(&context, 0, sizeof(context));
     context.ra = elf_getEntryPoint(elf_base);
@@ -382,24 +382,18 @@ void main (void)
 
     seL4_Word label;
     seL4_MessageInfo_t message;
-    int msg_length = 0;
-    void *test_area;
   
     dprintf(1, "Hello World from the ROOT TASK! \n");
-    //test_area = malloc(1024);
-    //printf("test_area = 0x%x\n",(uint32_t) test_area);
-    //*((uint32_t *) test_area) = 0xdeadbeef;
-    dprintf(0, "\nSOS Starting...\n");
+
+    dprintf(0, "SOS Starting...\n");
 
     _sos_init(&_sos_ipc_ep_cap, &_sos_interrupt_ep_cap);
 
     start_first_process(TTY_NAME, _sos_ipc_ep_cap);
 
     /* Wait on synchronous endpoint for IPC */
-    dprintf(0, "\nSOS entering syscall loop\n");
+    dprintf(0, "SOS entering syscall loop\n");
 
-    printf("\t\n.");
-    //while(1);
     syscall_loop(_sos_ipc_ep_cap);
 
     /* Not reached */

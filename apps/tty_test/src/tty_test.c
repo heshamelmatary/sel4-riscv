@@ -41,9 +41,12 @@ thread_block(void){
 int main(void){
     /* initialise communication */
     //ttyout_init();
-    seL4_DebugPutChar('\n');
-    const char *string = "task:\tHello world, I'm\ttty_test!.\n";
-    sos_debug_print(string, 35); 
+    //seL4_DebugPutChar('\n');
+
+    const char *string = "task:\tHello world, I'm tty_test!\n";
+    
+    sos_debug_print(string, 34); 
+    //sos_write(string, 35);
     do {
     //    int written = sos_write( (void *) string , strlen(string));
       //  printf("Number of written character = %d \n", written);
