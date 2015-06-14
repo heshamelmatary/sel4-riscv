@@ -13,7 +13,7 @@
 
 #include <stdio.h>
 
-#define SOS_SYSCALL1 1 /* Write */ 
+#define SOS_SYSCALL1   1 /* Write */ 
 
 /* Initialise tty output.
  * Must be called prior to any IPC receive operation.

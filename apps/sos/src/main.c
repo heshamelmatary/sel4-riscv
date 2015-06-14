@@ -93,9 +93,10 @@ void handle_syscall(seL4_Word badge, int num_args) {
     case SOS_SYSCALL1:
         {
           int i = 1;    
-          for (i = 1; i <= num_args; i++)
+          for (i = 1; i <= 34; i++)
             seL4_DebugPutChar((char) seL4_GetMR(i));
             
+          seL4_DebugPutChar("\n");
           reply = seL4_MessageInfo_new(0, 0, 0, 1);
           seL4_SetMR(0, i-1);
           seL4_Send(reply_cap, reply);
@@ -116,9 +117,10 @@ void syscall_loop(seL4_CPtr ep) {
         seL4_Word badge;
         seL4_Word label;
         seL4_MessageInfo_t message;
-        printf("\n-->");
+        printf("\n-->\n");
         message = seL4_Wait(ep, &badge);
         label = seL4_MessageInfo_get_label(message);
+
         if(badge & IRQ_EP_BADGE){
             /* Interrupt */
             if (badge & IRQ_BADGE_NETWORK) {
@@ -334,6 +336,7 @@ static void _sos_ipc_init(seL4_CPtr* ipc_ep, seL4_CPtr* async_ep){
                                 seL4_EndpointBits,
                                 cur_cspace,
                                 ipc_ep);
+
     conditional_panic(err, "Failed to allocate c-slot for IPC endpoint");
 }
 

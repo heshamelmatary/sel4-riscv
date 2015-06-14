@@ -45,11 +45,11 @@ int main(void){
 
     const char *string = "task:\tHello world, I'm tty_test!\n";
     
-    sos_debug_print(string, 34); 
-    //sos_write(string, 35);
+    //sos_debug_print(string, 34); 
+    sos_write(string, 34);
     do {
     //    int written = sos_write( (void *) string , strlen(string));
-      //  printf("Number of written character = %d \n", written);
+         // printf("Number of written character = %d \n", written);
 				/* Send data to SOS */
         //thread_block();
         // sleep(1);	// Implement this as a syscall
