@@ -33,6 +33,9 @@ simulate-ia32:
 		-S -s -m 512 -nographic -kernel images/kernel-ia32-pc99 \
 		-initrd images/sel4test-driver-image-ia32-pc99
 
+simulate-spike:
+	spike --isa=RV32 images/sos-image-riscv-spike
+
 .PHONY: help
 help:
 	@echo "sel4test - unit and regression tests for seL4"
