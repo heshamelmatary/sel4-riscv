@@ -36,6 +36,9 @@ simulate-ia32:
 simulate-spike:
 	spike --isa=RV32 images/sos-image-riscv-spike
 
+debug-spike:
+	spike -d --isa=RV32 images/sos-image-riscv-spike
+
 .PHONY: help
 help:
 	@echo "sel4test - unit and regression tests for seL4"
