@@ -51,7 +51,7 @@ int main(void){
     //    int written = sos_write( (void *) string , strlen(string));
          // printf("Number of written character = %d \n", written);
 				/* Send data to SOS */
-        //thread_block();
+        thread_block();
         // sleep(1);	// Implement this as a syscall
     } while(1);
 
