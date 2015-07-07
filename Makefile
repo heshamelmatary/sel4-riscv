@@ -36,8 +36,14 @@ simulate-ia32:
 simulate-spike:
 	spike --isa=RV32 images/sos-image-riscv-spike
 
+simulate-spike64:
+	spike images/sos-image-riscv-spike
+
 debug-spike:
 	spike -d --isa=RV32 images/sos-image-riscv-spike
+
+debug-spike64:
+	spike -d images/sos-image-riscv-spike
 
 .PHONY: help
 help:
