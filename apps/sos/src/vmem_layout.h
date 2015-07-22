@@ -20,17 +20,17 @@
 /* From this address onwards is where any devices will get mapped in
  * by the map_device function. You should not use any addresses beyond
  * here without first modifying map_device */
-#define DEVICE_START        (0xB0000000)
+#define DEVICE_START        (0x21000000)
 
-#define ROOT_VSTART         (0xC0000000)
+#define ROOT_VSTART         (0x22000000)
 
 /* Constants for how SOS will layout the address space of any
  * processes it loads up */
-#define PROCESS_STACK_TOP   (0x90000000)
-#define PROCESS_IPC_BUFFER  (0xA0000000)
-#define PROCESS_VMEM_START  (0xC0000000)
+#define PROCESS_STACK_TOP   (0x31000000)
+#define PROCESS_IPC_BUFFER  (0x32000000)
+#define PROCESS_VMEM_START  (0x33000000)
 
-#define PROCESS_SCRATCH     (0xD0000000)
+#define PROCESS_SCRATCH     (0x34000000)
 
 
 #endif /* _MEM_LAYOUT_H_ */
